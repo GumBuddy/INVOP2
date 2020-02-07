@@ -1,0 +1,213 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>InvOP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+						 <span class="icon solid"><img class="image fit" src="images/Logo.png" alt="no se ve">	</span>
+
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1 class="auto">Investigacion de Operaciones 2</h1>
+								<p>¿Por donde quieres comenzar?</p>	
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#Subcom1">SubCompetencia 1</a></li>
+								<li><a href="#Subcom2">SubCompetencia 2</a></li>
+								<li><a href="#Subcom3">SubCompetencia 3</a></li>
+ 							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+						<!-- Subcompetencia 1 -->
+							<article id="Subcom1">
+								<h2 class="major align-center">Procesos Estocasticos y Cadenas de Markov</h2>
+								<i> <p class="align-center">Selecciona el tema de tu interés</p> </i>
+									<ul>
+										<li type="none"><a href="#TEMA1">Procesos Estocasticos</a></li>
+										<li type="none"><a href="#TEMA2">Cadenas de Markov</a></li>
+									</ul>
+							</article>
+								<!-- Temas de Subcompetencia 1 -->
+									<article id="TEMA1">
+										<h2 class="major align-center">Procesos Estocasticos</h2>
+										<h3 class="major align-center">Introducción</h3>
+										<!-- <h3	class="align-center">Origen</h3> -->
+										<p>Cuando estudiamos un fenómeno aleatorio lo representamos por una variable ε y ésta recoge los valores o resultados posibles de ese fenómeno aleatorio en un ambiente fijado de antemano, o bien, simplemente en un momento fijo cualquiera.</p>
+										<p>Nos servirá para estudiar los fenómenos aleatorios en un ambiente dinámico, es decir <em>cambiante</em>.</p>
+										<p>Los valores de la variable aleatoria ahora dependen de un parámetro el cual se encarga de dar el ambiente dinámico al fenómeno, se representa por <i>t</i> y es el <em>tiempo</em>.</p>
+										<h3 class="major align-center">¿Qué es?</h3>
+										<p>Un proceso estocástico son un conjunto de variables aleatorias (estocásticas) que describen la evolución a través del tiempo de un proceso físico o experimento.</p>
+										<p>Cada una de las variables aleatorias del proceso tiene su propia función de distribución de probabilidad y, entre ellas, pueden estar correlacionadas o no.</p>
+										<h3 class="major align-center">Definición</h3>
+										<p>Grupo de variables aleatorias <b>Xi</b>, donde <i>i</i> pertenece a un espacio muestral <b>S</b>,  parametrizadas por una variable <i>t</i> que toma valores enteros no negativos de un conjunto <b>T</b>. Esta variable es el <em>tiempo</em>.</p>
+										<div class="div-content-fit align-center" >
+											<img src="images/for1.png" height="100">
+											<img src="images/for2.png" height="100">
+										</div>										
+										<h3 class="major align-center">Características</h3>
+										<p>Un proceso estocástico depende de 3 características:</p>
+										<ul>
+											<li>El espacio de estado, <b>S</b>.</li>
+											<li>El parámetro temporal, <b>T</b>.</li>
+											<li>La relación de dependencia entre las      variables aleatorias que lo conforman, <b>Xi(t)</b> (la dinámica del sistema).</li>
+										</ul>
+										<img class="image fit" src="images/for3.png">										
+										<a href="#Subcom1" class="button primary left">Regresar</a>
+									</article>
+									<article id="TEMA2">
+										<h2 class="major align-center">Cadenas de Markov</h2>										
+										<h3 class="major align-center">Introducción</h3>
+										<p>Las cadenas de <i>Markov</i> son modelos probabilísticos que se usan para predecir la evolución y el <em>comportamiento a corto y a largo plazo</em> de determinados sistemas.</p>
+										<p>Ejemplos: reparto del mercado entre marcas; dinámica de las averías de máquinas para decidir política de mantenimiento; evolución de una enfermedad. </p>
+										<h3 class="major align-center">Definición</h3>
+										<p>Una Cadena de Markov (CM) es:</p>
+										<ul>
+											<li><b>Un proceso estocástico</b></li>
+											<li><b>Con un número finito de estados (M)</b></li>
+											<li><b>Con probabilidades de transición estacionarias</b></li>
+											<li><b>Que tiene la propiedad markoviana</b></li>
+										</ul>
+										<div class="div-content-fit">
+											<img src="images/for1.png" height="100">
+										</div>
+										<h3 class="major align-center">Elementos de una Cadena de Markov</h3>
+										<ol>
+											<li>Un conjunto finito de <b>M estados</b>, exhaustivos y mutuamente excluyentes (ejemplo: estados de la enfermedad)</li>
+											<li><b>Ciclo de markov (“paso”)</b>: periodo de tiempo que sirve de base para examinar las transiciones entre estados (ejemplo, un mes)</li>
+											<li><b>Probabilidades de transición</b> entre estados, en un ciclo (matriz P)</li>
+											<li><b>Distribución  inicial</b> del sistema entre los M estados posibles</li>
+										</ol>
+										<h3 class="major align-center">Propiedad Markoviana</h3>
+										<p>Un proceso estocástico tiene la propiedad markoviana si las probabilidades de transición en un paso sólo dependen del estado del sistema en el período anterior (memoria limitada)</p>
+										<div class="div-content-absolute align-center" >
+											<img src="images/for4.png" height="300">
+											<img src="images/for5.png" height="300">
+											<img src="images/for6.png" height="50">
+											<img src="images/for7.png" height="350">
+											<img src="images/for8.png" height="50">
+											<img src="images/for9.png" height="200">
+										</div>										
+										<h3 class="major align-center">Tipos de Modelos de Markov</h3>
+										<ul>
+											<li><b>Procesos de Markov (Modelos semi-markovianos):</b> Las probabilidades de transición entre estados pueden variar a medida que transcurren más ciclos
+												<ul>
+													<li>Ejemplo: para modelizar la esperanza de vida, el riesgo de muerte aumenta con la edad</li>
+												</ul>
+											</li>
+											<li><b>Cadenas de Markov: </b>Las probabilidades de transición se suponen constantes a lo largo del tiempo</li>
+										</ul>
+										<h3 class="major align-center">Propiedad Markoviana</h3>
+										<table width="700" class="responsive-table">
+												<caption></caption>
+												<thead>
+													<tr>
+														<th></th>
+														<th></th>
+													</tr>
+												</thead>
+												<tfoot>
+													
+												</tfoot>
+												<tbody>
+													<tr>
+														<td>Comportamiento (sube/baja) del precio de las acciones hoy depende de lo ocurrido ayer</td>
+														<td><img src="images/for10.png" height="180"></td>
+													</tr>
+													<tr>
+														<td>Problema de la ruina de un jugador de casino</td>
+														<td><img src="images/for11.png" height="180"></td>
+													</tr>
+													<tr>
+														<td>Elección de marca: Con qué línea aérea volar a Madrid?</td>
+														<td><img src="images/for12.png" height="180"></td>
+													</tr>
+												</tbody>
+										</table>
+										
+
+									<a href="#Subcom1" class="button primary left">Regresar</a>
+									</article>
+						<!-- Subcompetencia 2 -->
+							<article id="Subcom2">
+								<h2 class="major align-center">Teorías de Colas</h2>
+								<i> <p class="align-center">Selecciona el tema de tu interés</p> </i>
+ 									<ul>
+										<li type="none"><a href="#TEMA3">Estructura de un Sistema de Lineas De Espera</a></li>
+										<li type="none"><a href="#TEMA4">Modelos de Linea de Espera con tiempos de servicio exponenciales</a></li>
+										<li type="none"><a href="#TEMA5">Modelos de Linea de Espera con tiempos de servicio arbitrarios</a></li>										
+									</ul>
+							</article>
+								<!-- Temas de Subcompetencia 2 -->
+									<article id="TEMA3">
+										<h2 class="major">Estructura de un Sistema de Lineas De Espera</h2>
+										<h3 class="major align-center"></h3>
+										<a href="#Subcom2" class="button primary left">Regresar</a>
+									</article>
+									<article id="TEMA4">
+										<h2 class="major">Modelos de Linea de Espera con tiempos de servicio exponenciales</h2>
+										<h3 class="major align-center"></h3>
+										<a href="#Subcom2" class="button primary left">Regresar</a>
+									</article>
+									<article id="TEMA5">
+										<h2 class="major">Modelos de Linea de Espera con tiempos de servicio arbitrarios</h2>
+										<h3 class="major align-center"></h3>
+										<a href="#Subcom2" class="button primary left">Regresar</a>
+									</article>
+								<!-- Subcompetencia 3 -->
+							<article id="Subcom3">
+								<h2 class="major align-center">Teoría de Inventarios</h2>
+								<i> <p class="align-center">Selecciona el tema de tu interés</p> </i>
+									<ul>
+										<li type="none"><a href="#TEMA6">Administración de inventarios con demanda conocida</a></li>
+										<li type="none"><a href="#TEMA7">Administración de inventarios con demanda incierta</a></li>										
+									</ul>
+							</article>
+								<!-- Temas de Subcompetencia 3 -->
+								<article id="TEMA6">
+									<h2 class="major">Administración de inventarios con demanda conocida</h2>
+									<h3 class="major align-center"></h3>
+									<a href="#Subcom3" class="button primary left">Regresar</a>
+								</article>
+								<article id="TEMA7">
+									<h2 class="major">Administración de inventarios con demanda incierta</h2>
+									<h3 class="major align-center"></h3>
+									<a href="#Subcom3" class="button primary left">Regresar</a>
+								</article>				
+											
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+				</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
